@@ -1,0 +1,30 @@
+.container{
+  margin-top: 3rem;
+  background: red;
+  width: 100%;
+  min-height: calc(300px - 4rem);
+}
+.button{
+  width: 60px;
+  height: 60px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  background: greenyellow;
+}
+.button-zero{
+  width: 122px;
+}
+.backround-gray{
+  background: rgb(184,184,184);
+}
+.backround-strong-gray{
+  background:rgb(96,96,96)
+}
+.backround-orange{
+  background:rgb(255,140,0);
+}
+.button:active{
+  background: gray;
+}

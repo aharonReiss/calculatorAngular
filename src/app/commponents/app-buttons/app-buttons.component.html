@@ -1,0 +1,24 @@
+<div class="container">
+  <div *ngIf="!activeCalc; else cleanCalc" class="button backround-strong-gray" (click)="onClickButton('AC')">AC</div>
+  <ng-template #cleanCalc>
+    <div class="button backround-strong-gray" (click)="onClickButton('C')">C</div>
+  </ng-template>
+  <div class="button backround-strong-gray" (click)="onClickButton('-+')">-+</div>
+  <div class="button backround-strong-gray" (click)="onClickButton('%')">%</div>
+  <div class="button backround-orange" (click)="onClickButton('/')">/</div>
+  <div class="button backround-gray" (click)="onClickButton('7')">7</div>
+  <div class="button backround-gray" (click)="onClickButton('8')">8</div>
+  <div class="button backround-gray" (click)="onClickButton('9')">9</div>
+  <div class="button backround-orange" (click)="onClickButton('*')">*</div>
+  <div class="button backround-gray" (click)="onClickButton('4')">4</div>
+  <div class="button backround-gray" (click)="onClickButton('5')">5</div>
+  <div class="button backround-gray" (click)="onClickButton('6')">6</div>
+  <div class="button backround-orange" (click)="onClickButton('-')">-</div>
+  <div class="button backround-gray" (click)="onClickButton('1')">1</div>
+  <div class="button backround-gray" (click)="onClickButton('2')">2</div>
+  <div class="button backround-gray" (click)="onClickButton('3')">3</div>
+  <div class="button backround-orange" (click)="onClickButton('+')">+</div>
+  <div class="button button-zero backround-gray" (click)="onClickButton('0')">0</div>
+  <div class="button backround-gray" (click)="onClickButton('.')">.</div>
+  <div class="button backround-orange" (click)="onClickButton('=')">=</div>
+</div>
